@@ -1,0 +1,14 @@
+[project]
+name = "symlink-validator"
+version = "0.1.0"
+description = "Resolves a symlink chain and reports whether the target exists, is circular, or exceeds a max depth."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
